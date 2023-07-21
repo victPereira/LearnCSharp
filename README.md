@@ -15,7 +15,7 @@ Nesta parte, exploraremos o ecossistema .NET Framework, incluindo recursos, bibl
 Aqui, focaremos na criação de jogos com a plataforma Unity. Encontre projetos de exemplo, dicas e algumas informaçoes importantes.
 
 
-** Como Contribuir
+### Como Contribuir
 Sua contribuição é muito bem-vinda! Se você tiver algo interessante para adicionar a este repositório, siga os passos abaixo:
 
 Verifique se há problemas abertos para saber se alguém já está trabalhando em algo semelhante. Caso contrário, abra uma nova issue para discutir sua ideia antes de começar.
