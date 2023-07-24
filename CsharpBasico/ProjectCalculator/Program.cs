@@ -1,6 +1,6 @@
 using System;
 
-class Calculator
+ public partial class Program
 {
     static void Main()
     {
