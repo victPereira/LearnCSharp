@@ -1,0 +1,15 @@
+c:\LearnCSharp\CsharpBasico\bin\Debug\net7.0\CsharpBasico.exe
+c:\LearnCSharp\CsharpBasico\bin\Debug\net7.0\CsharpBasico.deps.json
+c:\LearnCSharp\CsharpBasico\bin\Debug\net7.0\CsharpBasico.runtimeconfig.json
+c:\LearnCSharp\CsharpBasico\bin\Debug\net7.0\CsharpBasico.dll
+c:\LearnCSharp\CsharpBasico\bin\Debug\net7.0\CsharpBasico.pdb
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.csproj.AssemblyReference.cache
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.GeneratedMSBuildEditorConfig.editorconfig
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.AssemblyInfoInputs.cache
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.AssemblyInfo.cs
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.csproj.CoreCompileInputs.cache
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.dll
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\refint\CsharpBasico.dll
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.pdb
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\CsharpBasico.genruntimeconfig.cache
+c:\LearnCSharp\CsharpBasico\obj\Debug\net7.0\ref\CsharpBasico.dll
