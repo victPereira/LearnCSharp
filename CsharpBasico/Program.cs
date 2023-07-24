@@ -1,11 +1,12 @@
 ﻿int idade = 23;
 int idadePai = 49;
 Console.WriteLine(idade + idadePai);
-
+Console.WriteLine("---------------------------------------------");
 
 string FirstName = "Victor";
 int idadeVictor = 23;
 Console.WriteLine(FirstName + " tem " + (idadeVictor + 7) + " anos ");
+Console.WriteLine("---------------------------------------------");
 
 int sum = 7 + 5;
 int difference = 7 - 5;
@@ -16,7 +17,7 @@ Console.WriteLine("Sum: " + sum);
 Console.WriteLine("Difference: " + difference);
 Console.WriteLine("Product: " + product);
 Console.WriteLine("Quotient: " + quotient);
-
+Console.WriteLine("---------------------------------------------");
 /* 
 
 + é o operador de adição
@@ -28,7 +29,7 @@ Console.WriteLine("Quotient: " + quotient);
 
 decimal decimalQuotient = 7.0m / 5;
 Console.WriteLine($"Decimal quotient: {decimalQuotient}");
-
+Console.WriteLine("---------------------------------------------");
 
 /* 
 
@@ -46,7 +47,7 @@ int first = 7;
 int second = 5;
 decimal quantidade = (decimal)first / (decimal)second;
 Console.WriteLine(quantidade);
-
+Console.WriteLine("---------------------------------------------");
 
 
 /*
@@ -63,4 +64,24 @@ M ultiplicação e D ivisão (da esquerda para a direita)
 Adição e subtração (da esquerda para a direita)
 
 */
+
+int value = 1;
+
+value = value + 1;
+Console.WriteLine("First increment: " + value);
+
+value += 1;
+Console.WriteLine("Second increment: " + value);
+
+value++;
+Console.WriteLine("Third increment: " + value);
+
+value = value - 1;
+Console.WriteLine("First decrement: " + value);
+
+value -= 1;
+Console.WriteLine("Second decrement: " + value);
+
+value--;
+Console.WriteLine("Third decrement: " + value);
 
