@@ -1,4 +1,6 @@
-﻿Random dice = new();
+﻿//Chamar classes e metodos
+
+Random dice = new();
 int roll1 = dice.Next();
 int roll2 = dice.Next(101);
 int roll3 = dice.Next(50, 101);
@@ -7,7 +9,7 @@ Console.WriteLine($"First Roll: {roll1}");
 Console.WriteLine($"Second Roll: {roll2}");
 Console.WriteLine($"Third Roll: {roll3}");
 
-Console.Write("-----------------------------");
+Console.Write("----------------\n");
 
 int firstValue = 500;
 int secondValue = 600;
@@ -16,7 +18,25 @@ largerValue = Math.Max(firstValue, secondValue);
 Console.WriteLine(largerValue);
 
 
+Console.Write("----------------\n");
 
 
+//  Adicione a lógica de decisão ao seu código usando as instruções `if`, `else` e `else if`
 
+Random dado = new();
+int rolll1  = dado.Next(1,11);
+int rolll2  = dado.Next(1,11);
+int rolll3  = dado.Next(1,11);
+
+int total = rolll1 + rolll2 + rolll3;
+Console.WriteLine($"Dado roll: {rolll1} +  {rolll1} +  {rolll1} = {total}");
+
+if (total > 14) 
+{
+    Console.WriteLine("You win!!!");
+}
+if (total < 15)
+{
+    Console.WriteLine("Sorry, you lose :( ");
+}
 
