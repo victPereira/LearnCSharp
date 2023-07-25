@@ -24,27 +24,31 @@ Console.Write("----------------\n");
 //  Adicione a lógica de decisão ao seu código usando as instruções `if`, `else` e `else if`
 
 Random dado = new();
-int rolll1  = dado.Next(1,11);
-int rolll2  = dado.Next(1,11);
-int rolll3  = dado.Next(1,11);
+int rolll1  = dado.Next(1,7);
+int rolll2  = dado.Next(1,7);
+int rolll3  = dado.Next(1,7);
 
 int total = rolll1 + rolll2 + rolll3;
-Console.WriteLine($"Dado roll: {rolll1} +  {rolll1} +  {rolll1} = {total}");
+Console.WriteLine($"Dado roll: {rolll1} +  {rolll2} +  {rolll3} = {total}");
 
-if (total > 14) 
+if ((rolll1 == rolll2) || (rolll2 == rolll3) || (rolll1 == rolll3))
 {
-    Console.WriteLine("You win!!!");
+    Console.WriteLine("You rolled doubles! +2 bonus to total!");
+    total += 2;
 }
+
+if ((rolll1 == rolll2) && (rolll2 == rolll3)) 
+{
+    Console.WriteLine("You rolled triples! +6 bonus to total!");
+    total += 6;
+}
+
 if (total >= 15)
 {
     Console.WriteLine("Sorry, you lose :( ");
 }
 
-if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
-{
-    Console.WriteLine("You rolled doubles! +2 bonus to total!");
-    total += 2;
-}
+Console.Write("----------------\n");
 
 //O que é uma expressão booleana?
  string message = "The quick brown fox jumps over tha lazy dog.";
