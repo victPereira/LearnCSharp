@@ -35,8 +35,24 @@ if (total > 14)
 {
     Console.WriteLine("You win!!!");
 }
-if (total < 15)
+if (total >= 15)
 {
     Console.WriteLine("Sorry, you lose :( ");
+}
+
+if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+{
+    Console.WriteLine("You rolled doubles! +2 bonus to total!");
+    total += 2;
+}
+
+//O que é uma expressão booleana?
+ string message = "The quick brown fox jumps over tha lazy dog.";
+ bool result = message.Contains("dog");
+ Console.WriteLine(result);
+
+if ( message.Contains("fox"))
+{
+    Console.WriteLine("What does the fox say?");
 }
 
