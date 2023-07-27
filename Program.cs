@@ -335,7 +335,7 @@ else if (permission.Contains("Manager"))
     }
     else
     {
-        Console.WriteLine("You do not have sufficient privileges.");
+        Console.WriteLine("You do not have sufficient privilegees.");
     }
 }
 else
