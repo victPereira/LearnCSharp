@@ -60,3 +60,36 @@ if ( message.Contains("fox"))
     Console.WriteLine("What does the fox say?");
 }
 
+Console.Write("----------------\n");
+
+
+Random random = new Random();
+int daysUntilExpiration = random.Next(12);
+int discountPercentage = 0;
+
+if (daysUntilExpiration == 0)
+{
+    Console.WriteLine("Sua subscrição expirou");
+}
+
+
+else if (daysUntilExpiration == 1)
+{
+    Console.WriteLine("Sua subscrição termina em 1 dia");
+    discountPercentage = 20;
+}
+
+
+
+else if (daysUntilExpiration <= 10)
+{
+    Console.Write("Your subscription will expire soon. Renew Now!!");
+    discountPercentage = 20;
+}
+
+
+if (daysUntilExpiration <= 5)
+{
+    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days");
+}
+
