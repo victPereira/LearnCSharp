@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YqPSUosgKXSmbGNFHoII9I54eSJNDi9RAsxRHYpkr23WgFJILS49vwf3SZJWaS3NAbgOEO8LVJkory4JWgLdKw==",
+  "dgSpecHash": "h9V9etleqjE36UzMawHCVu3vDvxdZ8WMeU/EDccUP4ujxqwF++WwoOUW9vVEfZOQncwukvL8YmoOO0FWDVGK1A==",
   "success": true,
-  "projectFilePath": "C:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj",
+  "projectFilePath": "c:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

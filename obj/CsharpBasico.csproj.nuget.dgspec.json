@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj": {}
+    "c:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj": {}
   },
   "projects": {
-    "C:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj": {
+    "c:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj",
+        "projectUniqueName": "c:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj",
         "projectName": "CsharpBasico",
-        "projectPath": "C:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj",
+        "projectPath": "c:\\LearnCSharp\\CsharpBasico\\CsharpBasico.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\LearnCSharp\\CsharpBasico\\obj\\",
+        "outputPath": "c:\\LearnCSharp\\CsharpBasico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config"
