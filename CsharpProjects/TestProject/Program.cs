@@ -96,3 +96,9 @@ if (daysUntilExpiration <= 5)
 Console.Write("----------------\n");
 
 // Armazenar e iterar sequencias de dados ao utilizar Matrizes e a instrução FOREACH em C# 
+
+string[] fradulentOrderID = new string[3];
+fradulentOrderID[0] = "abc";
+fradulentOrderID[0] = "b456";
+fradulentOrderID[0] = "c789";
+
