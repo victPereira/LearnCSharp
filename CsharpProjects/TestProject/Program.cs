@@ -93,3 +93,6 @@ if (daysUntilExpiration <= 5)
     Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days");
 }
 
+Console.Write("----------------\n");
+
+// Armazenar e iterar sequencias de dados ao utilizar Matrizes e a instrução FOREACH em C# 
