@@ -13,10 +13,18 @@
 
 <div>
     <h3>Resultados da Pesquisa:</h3>
-    <ul>
-        @foreach (var book in Model)
-        {
-            <li>@book.Title - @book.Author</li>
-        }
-    </ul>
+    @if (Model != null)
+    {
+        <ul>
+            @foreach (var book in Model)
+            {
+                <li>@book.Title - @book.Author</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>Nenhum resultado encontrado.</p>
+    }
 </div>
+
