@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class teste : MonoBehaviour {
     private void Start() {
-        
+        Console.WriteLine("Ola");
     }
 
 
@@ -14,5 +14,5 @@ public class teste : MonoBehaviour {
         
     }
 
-    
+
 }
